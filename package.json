@@ -1,0 +1,34 @@
+{
+  "name": "newsscraper",
+  "version": "1.0.0",
+  "description": "Scrapes for news in a website and lets users view and leave comments on the latest news.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "author": "mike10951",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.1",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mongoose": "^5.8.9",
+    "morgan": "^1.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mike10951/news-scraper.git"
+  },
+  "keywords": [
+    "mongoose",
+    "scraper",
+    "cheerio"
+  ],
+  "bugs": {
+    "url": "https://github.com/mike10951/news-scraper/issues"
+  },
+  "homepage": "https://github.com/mike10951/news-scraper#readme"
+}
